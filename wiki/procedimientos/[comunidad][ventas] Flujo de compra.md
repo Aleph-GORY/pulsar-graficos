@@ -1,5 +1,5 @@
-# Flujo de compra
-El flujo de compra describe los pasos que debe seguir unx clientx para realizar una compra en la página web.
+# Flujo de Ventas
+El flujo de ventas describe los pasos que debe seguir unx clientx para realizar una compra en la página web.
 
 ## Relevancia y suposiciones
 El flujo de compra es un flujo de primera prioridad para pulsar, es el canal mediante el que le colectivo se mantiene y florece.
