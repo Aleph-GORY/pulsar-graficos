@@ -56,6 +56,37 @@ Las pruebas se dividen en dos categorias
 ### Pruebas de comunidad
 Pruebas a cada una de las flechas del flujo que van desde el Usuario, a traves de Instagram y la Galeria Virtual, y que terminan en llegar a la página del producto. 
 
+- U->G, G->P, IG->G, IG->P, DM->P: Sanidad de la galería & redicción
+    - Links directos funcionando.
+    - Latencia de animaciones y carga menor a x segundos.
+    - Registro de usuarios funcionando. 
+- U->IG: Sanidad del perfil de IG
+    - Links directos funcionando.
+    - Notificaciones funcionando.
+    - Perfil no debe bloquearse.
+- IG->DM: Recibir mensajes de clientes
+    - Latencia de llegada de mensajes.
+- P->C: Funcionamiento del carrito
+    - Inventario actualizado en la página del producto.
+    - Interfaz de usuario del profucto funcionando.
+    - Notificaciones del carrito funcionando.
+- C->P: Continuar comprando otros productos
+    - Algoritmo de sugerencias funcionando.
+    - Latencia de sugerencias no mayor a y segundos.
+    - Interfaz de usuario del carrito funcionando.
 
 ### Pruebas de ventas
 Pruebas a cada una de las flechas del flujo que van desde la página del producto y que terminan en generar los tres entregables. 
+
+- C->R: Funcionamiento del mapa de selección de rutas
+    - Mapa de ruta óptima funcionando.
+    - Calculadora de costo de envio funcionando.
+- R->IP: Mandar instrucciones de pago
+    - Envío de correo electrónico funcionando.
+    - Plantilla de instrucciones llenada correctamente.
+- R->AI: Apartado de productos en el inventario
+    - Ver reflejado las compras en el inventario y la página de productos.
+    - Utilizar un producto falso de prueba.
+- R->NV: Generación de una nueca cotización.
+    - Envío de correo electrónico a comunidad funcionando.
+    - Cotización llenada correctamente. 
